@@ -25,12 +25,12 @@
     transform: translate(-50%, -50%);
 }
 .carouselText p{
-    color: var(--secondary);
+    color: #159EEC;
     font-weight: 600;
     font-size: 18px;
 }
 .carouselText h2{
-    color: var(--primary);
+    color: #1F2B6C;
     font-size: 48px;
     width: 512px;
 }

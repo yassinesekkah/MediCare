@@ -141,57 +141,6 @@ span {
   color: var(--light);
 }
 
-.carousel-container {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.carousel-slide {
-  display: none;
-  position: relative;
-  width: 100%;
-}
-
-.carousel-slide.active {
-  display: block;
-}
-
-.carousel-caption {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: white;
-}
-
-.carousel-slide img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.carousel-indicators {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 10px;
-}
-
-.carousel-indicators button {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: none;
-  background-color: gray;
-  cursor: pointer;
-}
-
-.carousel-indicators button.active {
-  background-color: white;
-}
-
 .footer {
   background-color: var(--primary);
   margin-top: auto;
