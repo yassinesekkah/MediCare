@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carousel{
+   position: relative; 
+}
+.carouselImage{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.carouselText{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.carouselText p{
+    font-size: 18px;
+}
+.carouselText h2{
+    font-size: 48px;
+    width: 512px;
+}
+.carouselBouttons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+.carouselBouttons button{
+    box-sizing: border-box;
+    width: 60px;
+    height: 70px;
+    border: none;
+    background-color: rgba(255, 255, 255, .15);
+    border-radius: 20%;
+    color: blue;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.carouselBouttons button:hover{
+    background-color: rgba(255, 255, 255, .5);
+    border: 1px solid rgba(255, 255, 255, 1);
+    font-size: 2.6rem;
+}
+.carouselIndicator{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 0.8rem;
+}
+.carouselIndicator button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, .3);
+}
+.carouselIndicator button.active{
+    background-color: white;
+    width: 14px;
+    height: 14px;
+}

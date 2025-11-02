@@ -15,7 +15,9 @@
         rel="stylesheet">
 
     <!-- CSS personnalisé -->
+    <link rel="stylesheet" href="./assets/css/carousel.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
@@ -50,41 +52,22 @@
 
     <section class="home">
         <!-- Carousel -->
-        <div class="carousel-container">
-            <div class="carousel-slide active">
-                <img src="./assets/images/slide1.png" alt="slide 1">
-                <div class="carousel-caption">
-                    <p>Prendre soin de la vie</p>
-                    <h2>Faites un bilan de santé au moins une fois par an</h2>
-                </div>
+        <section class="carousel">
+            <img class="carouselImage" src="./assets/images/slide1.png">
+            <div class="carouselText">
+                <p>Prendre soin de la vie</p>
+                <h2>Faites un bilan de santé au moins une fois par an</h2>
             </div>
-            <div class="carousel-slide">
-                <img src="./assets/images/slide2.png" alt="slide 2">
-                <div class="carousel-caption">
-                    <p>Prendre soin de la vie</p>
-                    <h2>Ne prenez pas de médicaments sans avis médical</h2>
-                </div>
+            <div class="carouselBouttons">
+                <button id="prev">&#10594;</button>
+                <button id="next">&#10596;</button>
             </div>
-            <div class="carousel-slide">
-
-                <img src="./assets/images/slide3.png" alt="slide 3">
-                <div class="carousel-caption">
-                    <p>Prendre soin de la vie</p>
-                    <h2>Surveillez votre tension artérielle et votre glycémie</h2>
-                </div>
-            </div>
-
-            <!-- Indicators -->
-            <div class="carousel-indicators">
+            <div class="carouselIndicator">
                 <button class="active"></button>
                 <button></button>
                 <button></button>
             </div>
-
-            <!-- Buttons -->
-            <button id="prev">⟨</button>
-            <button id="next">⟩</button>
-        </div>
+        </section>
 
         <!-- Recherche section "Home page" -->
         <section id="searchBar" class="search-bar text-center py-5 bg-light">
@@ -183,6 +166,7 @@
             crossorigin="anonymous"></script>
 
         <script src="./assets/js/doctors-data.js"></script>
+        <script src="./assets/js/carousel.js"></script>
         <script src="./assets/js/search.js"></script>
         <script src="./assets/js/main.js"></script>
 </body>
