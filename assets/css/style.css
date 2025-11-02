@@ -48,8 +48,6 @@ span {
   width: 100%;
 }
 
-
-
 .navbar {
   background-color: var(--primary) !important;
 }
@@ -64,34 +62,8 @@ span {
   color: var(--white) !important;
 }
 
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translateY(-50%);
-  text-align: left;
-  max-width: 500px;
-
-}
-
-.carousel-caption h2 {
-  font-family: 'Yeseva One', cursive;
-  font-size: 3rem;
-  color: var(--primary);
-
-}
-
-.carousel-caption p {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--secondary);
-
-}
-
 .search-bar {
   background-color: #f8f9fa;
-  /* خلفية فاتحة */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
